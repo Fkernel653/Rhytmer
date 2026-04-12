@@ -1,4 +1,4 @@
-# flower-dl - TUI Audio Downloader
+# poetry - TUI Audio Downloader
 
 A terminal-based user interface (TUI) for downloading high-quality audio. Built with Python, `yt-dlp`, and `textual` for a modern terminal experience with automatic metadata embedding.
 
@@ -49,12 +49,12 @@ brew install ffmpeg
 2. Add the `bin` folder to your system PATH
 3. Verify: `ffmpeg -version`
 
-### Install flower-dl
+### Install poetry
 
 ```bash
 # Clone the repository
-git clone https://github.com/Fkernel653/flower-dl.git
-cd flower-dl
+git clone https://github.com/Fkernel653/poetry.git
+cd poetry
 
 # Install dependencies
 pip install -r requirements.txt
@@ -87,7 +87,7 @@ python main.py
 ## 📁 Project Structure
 
 ```
-flower-dl/
+poetry/
 ├── main.py                # TUI application entry point
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Documentation
@@ -137,7 +137,7 @@ Audio files are saved to your home directory:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│ FlowerDL                                                    │
+│ Poetry                                                      │
 ├─────────────────────────────────────────────────────────────┤
 │                                                             │
 │  ┌─────────────────────────────────────────────────────┐    │
@@ -162,7 +162,7 @@ Audio files are saved to your home directory:
 
 ## 🔧 Configuration
 
-Currently, flower-dl downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
+Currently, poetry downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
 
 ```python
 # In download.py, line ~15

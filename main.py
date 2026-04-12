@@ -19,7 +19,7 @@ LINES_KBPS = """64
 256
 320""".splitlines()
 
-class FlowerDL(App):
+class Poetry(App):
     CSS = """
     #main_container {
         layout: vertical;
@@ -226,5 +226,5 @@ class FlowerDL(App):
 
 
 if __name__ == "__main__":
-    app = FlowerDL()
+    app = Poetry()
     app.run()
