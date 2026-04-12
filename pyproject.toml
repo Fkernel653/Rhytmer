@@ -1,0 +1,16 @@
+[project]
+name = "flower-dl"
+description = "flower-dl is a TUI audio loader based on yt-dlp"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "yt-dlp",
+    "textual",
+    "fake_useragent",
+    "mutagen"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff",
+]
