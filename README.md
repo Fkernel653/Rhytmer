@@ -2,6 +2,7 @@
 
 A terminal-based user interface (TUI) for downloading high-quality audio. Built with Python, `yt-dlp`, and `textual` for a modern terminal experience with automatic metadata embedding.
 
+![Screenshot](screenshot.png)
 ![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macOS%20%7C%20windows-lightgrey)
@@ -132,33 +133,6 @@ Audio files are saved to your home directory:
 - **Windows**: `C:\Users\<USERNAME>`\ or `C:\Users\<USERNAME>\`
 
 *Note: Currently hardcoded to `Path.home()`. Future versions will support configurable paths.*
-
-## 🎨 TUI Interface Preview
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│ Poetry                                                      │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌─────────────────────────────────────────────────────┐    │
-│  │  Enter your URL                                     │    │
-│  │  https://youtu.be/...                               │    │
-│  └─────────────────────────────────────────────────────┘    │
-│                                                             │
-│  ████████████████████████████████████████ 45%               │
-│                                                             │
-│  ┌──────────────┐  ┌──────────────┐                         │
-│  │ M4A          │  │ 256          │                         │
-│  └──────────────┘  └──────────────┘                         │
-│                                                             │
-│  ┌──────────┐  ┌────────┐                                   │
-│  │ Download │  │ Cancel │                                   │
-│  └──────────┘  └────────┘                                   │
-│                                                             │
-├─────────────────────────────────────────────────────────────┤
-│  Press Ctrl+C to exit                                       │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ## 🔧 Configuration
 
