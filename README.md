@@ -1,4 +1,4 @@
-# FlowerDL - TUI Audio Downloader
+# flower-dl - TUI Audio Downloader
 
 A terminal-based user interface (TUI) for downloading high-quality audio. Built with Python, `yt-dlp`, and `textual` for a modern terminal experience with automatic metadata embedding.
 
@@ -49,7 +49,7 @@ brew install ffmpeg
 2. Add the `bin` folder to your system PATH
 3. Verify: `ffmpeg -version`
 
-### Install FlowerDL
+### Install flower-dl
 
 ```bash
 # Clone the repository
@@ -162,7 +162,7 @@ Audio files are saved to your home directory:
 
 ## 🔧 Configuration
 
-Currently, FlowerDL downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
+Currently, flower-dl downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
 
 ```python
 # In download.py, line ~15
