@@ -9,7 +9,6 @@ import asyncio
 # Available codec options for audio conversion
 LINES_CODEC = """M4A
 MP3
-AAC
 FLAC
 Opus""".splitlines()
 
@@ -19,7 +18,7 @@ LINES_KBPS = """64
 256
 320""".splitlines()
 
-class Poetry(App):
+class Rhythmer(App):
     CSS = """
     #main_container {
         layout: vertical;
@@ -226,5 +225,5 @@ class Poetry(App):
 
 
 if __name__ == "__main__":
-    app = Poetry()
+    app = Rhythmer()
     app.run()

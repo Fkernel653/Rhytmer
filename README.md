@@ -1,4 +1,4 @@
-# poetry - TUI Audio Downloader
+# Rhytmer - TUI Audio Downloader
 
 A terminal-based user interface (TUI) for downloading high-quality audio. Built with Python, `yt-dlp`, and `textual` for a modern terminal experience with automatic metadata embedding.
 
@@ -50,12 +50,12 @@ brew install ffmpeg
 2. Add the `bin` folder to your system PATH
 3. Verify: `ffmpeg -version`
 
-### Install poetry
+### Install Rhytmer
 
 ```bash
 # Clone the repository
-git clone https://github.com/Fkernel653/poetry.git
-cd poetry
+git clone https://github.com/Fkernel653/Rhytmer.git
+cd Rhytmer
 
 # Install dependencies
 pip install -r requirements.txt
@@ -88,7 +88,7 @@ python main.py
 ## 📁 Project Structure
 
 ```
-poetry/
+Rhytmer/
 ├── main.py                # TUI application entry point
 ├── requirements.txt       # Python dependencies
 ├── README.md              # Documentation
@@ -121,7 +121,7 @@ poetry/
 
 | Format | Extension | Metadata Library | Tags Added |
 |--------|-----------|------------------|-------------|
-| M4A/AAC | .m4a/.aac | mutagen.mp4 | `©nam`, `©ART`, `©alb` |
+| M4A | .m4a | mutagen.mp4 | `©nam`, `©ART`, `©alb` |
 | MP3 | .mp3 | mutagen.id3 | TIT2, TPE1, TALB |
 | FLAC | .flac | mutagen.flac | title, artist, album |
 | Opus | .opus | mutagen.oggopus | title, artist, album |
@@ -136,7 +136,7 @@ Audio files are saved to your home directory:
 
 ## 🔧 Configuration
 
-Currently, poetry downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
+Currently, Rhytmer downloads to your home directory. To change this, modify the `path` variable in `modules/download.py`:
 
 ```python
 # In download.py, line ~15

@@ -7,8 +7,8 @@ def add_metadata(file: Path, codec: str, title: str, artist: str, album: str):
     Supports different formats using appropriate mutagen classes.
     """
     match codec.lower():
-        case "m4a" | "aac":
-            # M4A/MP4 format - uses iTunes-style metadata keys
+        case "m4a":
+            # M4A format - uses iTunes-style metadata keys
             from mutagen.mp4 import MP4
 
             audio = MP4(file)
