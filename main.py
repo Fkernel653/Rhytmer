@@ -174,7 +174,7 @@ class Rhytmer(App):
                 await asyncio.sleep(0.1)
                 
             if not self.download_cancelled:
-                self.notify("✓ Download completed!", severity="success")
+                self.notify("✓ Download completed!")
                 
         except asyncio.CancelledError:
             self.notify("Download cancelled", severity="warning")
