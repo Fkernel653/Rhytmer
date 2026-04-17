@@ -1,12 +1,11 @@
 [project]
-name = "Rhytmer"
-description = "Rhytmer is a TUI audio downloader based on yt-dlp"
+name = "Rhythmer"
+description = "Rhythmer is a TUI audio downloader based on yt-dlp"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "yt-dlp",
     "textual",
-    "fake_useragent",
     "mutagen"
 ]
 
